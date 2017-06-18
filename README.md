@@ -1,7 +1,7 @@
 # rememberscrolljs
 
-## jquery.rememberscroll.js a jQuery plugin that remembers where user scrolls in a web page. When the user comes back to the page later, it automatically jumps to the most recent scroll position. <br />
-### Author: Steve Tang<br />
+#### jquery.rememberscroll.js a jQuery plugin that remembers where user scrolls in a web page. When the user comes back to the page later, it automatically jumps to the most recent scroll position. <br />
+#### Author: Steve Tang<br />
 
 ### function 
  - $.scrollTrack([seconds],[expiredays])<br />
