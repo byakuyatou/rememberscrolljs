@@ -28,7 +28,7 @@ $.scrollTrack = function(seconds, expiredays) {
 		var position = $.cookie('position');
 		if (this.scrollY == position) return;
 		position = this.scrollY;
-		$.cookie('position',position);
+		$.cookie('position',position,{expires: expiredays});
 	},1000*seconds);
 	
 };
