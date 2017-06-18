@@ -5,6 +5,7 @@
 
 ### function 
  - $.scrollTrack(seconds,expiredays)<br />
+ - the function can be called from a jQuery $(document).ready block
 ### parameters:<br />
  -    seconds: the frequency, i.e. in every this number of seconds the page scroll position will be queried, default is 2 seconds<br />
  -    expiredays: number of days cookies will be effective to store position data, default is 365 days<br />
